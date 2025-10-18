@@ -3,17 +3,16 @@
 
 int main(void)
 { 
-    int flag = 1;
-    while(flag != 0)
-    {
-               int y;
-               y = 3;
-               flag = 0;  
-               y = 4;
-  
-    }
+    int i;
     
-  
+    for(i = 0; i < 5; i++)
+    {
+          int temp = 1;
+          printf("temp = %d\n", temp);
+          temp++;
+          
+    } 
+
   system("PAUSE");	
   return 0;
 }
